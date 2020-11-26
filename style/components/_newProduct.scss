@@ -1,0 +1,24 @@
+.new-product{
+  img{
+    height: 555px;
+    object-fit: cover;
+  }
+  > ul > li{
+    .product-txt{
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      padding:0 9%;
+    }
+    &:last-child img{
+      height: 1080px;
+    }
+    &:last-child a:hover{
+      color: #000;
+      background: $color-gray-100;
+    }
+  }
+  h3{
+    @include font-lg;
+  }
+}

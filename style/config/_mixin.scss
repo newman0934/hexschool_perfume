@@ -1,18 +1,14 @@
 @mixin font-sm{
     font-size: $font-size-sm;
 }
-
-
 @mixin font-md{
     font-size: $font-size-middle;
     line-height: $line-height-middle;
 }
-
 @mixin font-lg{
     font-size: $font-size-large;
     line-height: $line-height-large;
 }
-
 @mixin font-xxl{
     font-size: $font-size-xxlarge;
     line-height: $line-height-xxlarge;
