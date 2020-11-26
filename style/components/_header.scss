@@ -1,0 +1,19 @@
+header {
+  .logo {
+    background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/d%E2%80%99Perfume.png");
+    max-width: 128px;
+    max-height: 38px;
+    a {
+      text-indent: 101%;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+	}
+	.nav-link{
+		@include font-md;
+		padding-left: 1.875rem;
+		span{
+			vertical-align: text-bottom;
+		}
+	}
+}
