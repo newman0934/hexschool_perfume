@@ -2,7 +2,6 @@
   background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index1.jpg");
   background-size: cover;
   height: 54.375rem;
-  margin-bottom: 3.75rem;
   h2 {
     @include font-xxl;
   }
@@ -10,7 +9,6 @@
     @include font-lg;
   }
   a {
-    @include font-xxl;
     font-size: 1.75rem;
     line-height: 42px;
     max-width: 21.875rem;
