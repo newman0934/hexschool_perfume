@@ -1,0 +1,13 @@
+.pagination{
+  .page-link{
+    color: #000;
+    border:none;
+    padding: 0 10px;
+    @include font-md;
+    &:hover{
+      color: $primary;
+      background: #fff;
+      border-bottom: 1px solid $primary;
+    }
+  }
+}

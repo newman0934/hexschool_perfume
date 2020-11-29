@@ -12788,4 +12788,32 @@ footer nav li {
 footer nav li a:hover {
   color: #000 !important;
 }
+
+.products .card {
+  margin-bottom: 58px;
+}
+
+.products .card img {
+  height: 255px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.products .card span:hover {
+  color: #6C4700 !important;
+}
+
+.pagination .page-link {
+  color: #000;
+  border: none;
+  padding: 0 10px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.pagination .page-link:hover {
+  color: #916000;
+  background: #fff;
+  border-bottom: 1px solid #916000;
+}
 /*# sourceMappingURL=all.css.map */
