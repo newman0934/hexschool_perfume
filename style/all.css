@@ -12742,4 +12742,50 @@ header .nav-link span {
 .top-product .card span {
   text-decoration: line-through;
 }
+
+.subscription {
+  height: 600px;
+  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index10.jpg") center center;
+  background-size: cover;
+  padding-top: 310px;
+}
+
+.subscription h3 {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.subscription input[type="text"] {
+  width: 63%;
+}
+
+.subscription input[type="submit"] {
+  width: 37%;
+}
+
+.subscription input[type="submit"]:hover {
+  background: #6C4700 !important;
+}
+
+footer img {
+  max-width: 8rem;
+}
+
+footer small {
+  font-size: 0.875rem;
+  line-height: 21px;
+}
+
+footer nav {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+footer nav li {
+  margin-left: 36px;
+}
+
+footer nav li a:hover {
+  color: #000 !important;
+}
 /*# sourceMappingURL=all.css.map */

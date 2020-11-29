@@ -9,6 +9,11 @@
     font-size: $font-size-large;
     line-height: $line-height-large;
 }
+
+@mixin font-xl{
+    font-size: $font-size-xlarge;
+    line-height: $line-height-xlarge;
+}
 @mixin font-xxl{
     font-size: $font-size-xxlarge;
     line-height: $line-height-xxlarge;

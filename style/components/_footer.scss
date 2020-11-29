@@ -1,0 +1,18 @@
+footer{
+  img{
+    max-width:8rem;
+  }
+  small{
+    font-size: 0.875rem;
+    line-height: 21px;
+  }
+  nav{
+    @include font-md;
+    li{
+      margin-left: 36px;
+      a:hover{
+        color: #000 !important;
+      }
+    }
+  }
+}

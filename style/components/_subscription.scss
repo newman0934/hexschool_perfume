@@ -1,0 +1,18 @@
+.subscription{
+  height: 600px;
+  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index10.jpg") center center;
+  background-size: cover;
+  padding-top: 310px;
+  h3{
+    @include font-xl;  
+  }
+  input[type="text"]{
+    width: 63%;
+  }
+  input[type="submit"]{
+    width: 37%;
+    &:hover{
+      background: #6C4700 !important;
+    }
+  }
+}
