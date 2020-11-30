@@ -1,0 +1,11 @@
+.product-detail{
+    .product-img{
+        li:nth-child(2), li:nth-child(3){
+            width:47.94% ;
+        }
+        li:nth-child(1), li:nth-child(4){
+            width: 100%;
+        }
+    }
+
+}
