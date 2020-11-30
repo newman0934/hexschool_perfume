@@ -12836,7 +12836,41 @@ footer nav li a:hover {
   width: 47.94%;
 }
 
-.product-detail .product-img li:nth-child(1), .product-detail .product-img li:nth-child(4) {
-  width: 100%;
+.product-detail .product-name {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.product-detail .product-desc {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  margin-bottom: 2rem;
+}
+
+.product-detail .product-price {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.product-detail .product-amount {
+  width: 45.71%;
+  height: 3.125rem;
+}
+
+.product-detail .add-to-cart {
+  width: 54.29%;
+}
+
+.product-detail .add-to-cart:hover {
+  color: #452d00 !important;
+}
+
+.product-detail .add-to-favorite {
+  margin-bottom: 5rem;
+}
+
+.product-detail .notice {
+  font-size: 1rem;
+  line-height: 24px;
 }
 /*# sourceMappingURL=all.css.map */

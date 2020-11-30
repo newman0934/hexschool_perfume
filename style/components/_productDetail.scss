@@ -3,9 +3,32 @@
         li:nth-child(2), li:nth-child(3){
             width:47.94% ;
         }
-        li:nth-child(1), li:nth-child(4){
-            width: 100%;
+    }
+    .product-name{
+        @include font-xl;
+    }
+    .product-desc{
+        @include font-md;
+        margin-bottom: 2rem;
+    }
+    .product-price{
+        @include font-md;
+    }
+    .product-amount{
+        width: 45.71%;
+        height: 3.125rem;
+    }
+    .add-to-cart{
+        width: 54.29%;
+        &:hover{
+            color: $link-hover-color !important;
         }
     }
-
+    .add-to-favorite{
+        margin-bottom: 5rem;
+    }
+    .notice{
+        font-size: 1rem;
+        line-height: 24px;
+    }
 }
