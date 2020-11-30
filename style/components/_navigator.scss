@@ -1,0 +1,11 @@
+.navigator{
+    padding: 0.75rem 0;
+    margin-bottom: 5rem;
+    a{
+        @include font-md;
+        padding-right:1.75rem;
+        &:hover{
+            color:$link-hover-color !important;
+        }
+    }
+}

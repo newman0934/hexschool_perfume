@@ -12,7 +12,7 @@
   input[type="submit"]{
     width: 37%;
     &:hover{
-      background: #6C4700 !important;
+      background: $link-hover-color !important;
     }
   }
 }

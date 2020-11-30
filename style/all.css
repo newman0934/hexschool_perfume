@@ -12764,7 +12764,7 @@ header .nav-link span {
 }
 
 .subscription input[type="submit"]:hover {
-  background: #6C4700 !important;
+  background: #452d00 !important;
 }
 
 footer img {
@@ -12786,7 +12786,7 @@ footer nav li {
 }
 
 footer nav li a:hover {
-  color: #000 !important;
+  color: #452d00 !important;
 }
 
 .products .card {
@@ -12800,7 +12800,7 @@ footer nav li a:hover {
 }
 
 .products .card span:hover {
-  color: #6C4700 !important;
+  color: #452d00 !important;
 }
 
 .pagination .page-link {
@@ -12815,5 +12815,20 @@ footer nav li a:hover {
   color: #916000;
   background: #fff;
   border-bottom: 1px solid #916000;
+}
+
+.navigator {
+  padding: 0.75rem 0;
+  margin-bottom: 5rem;
+}
+
+.navigator a {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  padding-right: 1.75rem;
+}
+
+.navigator a:hover {
+  color: #452d00 !important;
 }
 /*# sourceMappingURL=all.css.map */
