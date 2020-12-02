@@ -1,23 +1,21 @@
-.top-product{
-  .card{
+.top-product {
+  .card {
     background-color: transparent;
-    a{
-      img{
-        height: 540px;
-      }
-      .mask{
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(0,0,0,0.3);
-        @include font-lg;
-      }
+    .card-img-top {
+      height: 540px;
     }
-    h4{
+    .mask {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.3);
       @include font-lg;
     }
-    span{
+    .product-name {
+      @include font-lg;
+    }
+    .special-price {
       text-decoration: line-through;
     }
   }

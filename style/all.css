@@ -12669,17 +12669,17 @@ header .nav-link span {
   height: 54.375rem;
 }
 
-.banner h2 {
+.banner .banner-title {
   font-size: 2.5rem;
   line-height: 3.75rem;
 }
 
-.banner p {
+.banner .banner-text {
   font-size: 1.5rem;
   line-height: 2.25rem;
 }
 
-.banner a {
+.banner .banner-btn {
   font-size: 1.75rem;
   line-height: 42px;
   max-width: 21.875rem;
@@ -12687,7 +12687,7 @@ header .nav-link span {
   padding: 0.75rem 0;
 }
 
-.banner a:hover {
+.banner .banner-btn:hover {
   color: #fff;
   background: #ffffff4d;
 }
@@ -12720,11 +12720,11 @@ header .nav-link span {
   background-color: transparent;
 }
 
-.top-product .card a img {
+.top-product .card .card-img-top {
   height: 540px;
 }
 
-.top-product .card a .mask {
+.top-product .card .mask {
   top: 0;
   left: 0;
   right: 0;
@@ -12734,12 +12734,12 @@ header .nav-link span {
   line-height: 2.25rem;
 }
 
-.top-product .card h4 {
+.top-product .card .product-name {
   font-size: 1.5rem;
   line-height: 2.25rem;
 }
 
-.top-product .card span {
+.top-product .card .special-price {
   text-decoration: line-through;
 }
 
@@ -12750,42 +12750,42 @@ header .nav-link span {
   padding-top: 310px;
 }
 
-.subscription h3 {
+.subscription .subscript-title {
   font-size: 2rem;
   line-height: 3rem;
 }
 
-.subscription input[type="text"] {
+.subscription .subscript-input {
   width: 63%;
 }
 
-.subscription input[type="submit"] {
+.subscription .subscript-submit {
   width: 37%;
 }
 
-.subscription input[type="submit"]:hover {
+.subscription .subscript-submit:hover {
   background: #452d00 !important;
 }
 
-footer img {
+footer .logo {
   max-width: 8rem;
 }
 
-footer small {
+footer .copyright {
   font-size: 0.875rem;
   line-height: 21px;
 }
 
-footer nav {
+footer .footer-nav {
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
 
-footer nav li {
+footer .footer-nav li {
   margin-left: 36px;
 }
 
-footer nav li a:hover {
+footer .footer-nav nav-link:hover {
   color: #452d00 !important;
 }
 
@@ -12799,13 +12799,13 @@ footer nav li a:hover {
      object-fit: cover;
 }
 
-.products .card span:hover {
+.products .card .favorite-icon:hover, .products .card .cart-icon:hover {
   color: #452d00 !important;
 }
 
 .pagination .page-link {
   color: #000;
-  border: none;
+  border: 1px solid white;
   padding: 0 10px;
   font-size: 1.25rem;
   line-height: 1.875rem;
@@ -12872,5 +12872,11 @@ footer nav li a:hover {
 .product-detail .notice {
   font-size: 1rem;
   line-height: 24px;
+}
+
+.log-in .login-title {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-bottom: 0.75rem;
 }
 /*# sourceMappingURL=all.css.map */

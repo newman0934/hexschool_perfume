@@ -2,13 +2,13 @@
   background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index1.jpg");
   background-size: cover;
   height: 54.375rem;
-  h2 {
+  .banner-title {
     @include font-xxl;
   }
-  p {
+  .banner-text {
     @include font-lg;
   }
-  a {
+  .banner-btn {
     font-size: 1.75rem;
     line-height: 42px;
     max-width: 21.875rem;

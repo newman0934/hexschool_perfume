@@ -1,7 +1,7 @@
 .pagination{
   .page-link{
     color: #000;
-    border:none;
+    border:1px solid white;
     padding: 0 10px;
     @include font-md;
     &:hover{

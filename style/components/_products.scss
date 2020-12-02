@@ -5,7 +5,7 @@
       height: 255px;
       object-fit: cover;
     }
-    span:hover{
+    .favorite-icon:hover, .cart-icon:hover{
       color: $link-hover-color !important;
     }
   }

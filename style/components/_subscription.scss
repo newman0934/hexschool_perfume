@@ -3,13 +3,13 @@
   background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index10.jpg") center center;
   background-size: cover;
   padding-top: 310px;
-  h3{
+  .subscript-title{
     @include font-xl;  
   }
-  input[type="text"]{
+  .subscript-input {
     width: 63%;
   }
-  input[type="submit"]{
+  .subscript-submit {
     width: 37%;
     &:hover{
       background: $link-hover-color !important;
