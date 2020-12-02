@@ -18,3 +18,9 @@
     font-size: $font-size-xxlarge;
     line-height: $line-height-xxlarge;
 }
+
+@mixin mobile {
+    @media all and (max-width: $mobile-width) {
+      @content;
+    }
+  }

@@ -1,13 +1,29 @@
 .products{
   .card{
     margin-bottom: 58px;
-    img{
+    .card-img-top{
       height: 255px;
       object-fit: cover;
+      @include mobile{
+        height: 150px;
+      }
+    }
+    .special-price{
+      text-decoration: line-through;
     }
     .favorite-icon:hover, .cart-icon:hover{
       color: $link-hover-color !important;
     }
+  }
+  
+  @include mobile{
+    .card{
+      margin-bottom: 1.875rem;
+      .card-title{
+        @include font-md;
+      }
+    }
+
   }
 
 

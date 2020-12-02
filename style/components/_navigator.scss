@@ -8,4 +8,7 @@
             color:$link-hover-color !important;
         }
     }
+    @include mobile{
+        display: none;
+    }
 }

@@ -8,11 +8,15 @@ footer{
   }
   .footer-nav{
     @include font-md;
+    @include mobile{
+      display: none;
+    }
     li{
       margin-left: 36px;
     }
     nav-link:hover{
       color: $link-hover-color !important;
     }
+
   }
 }
