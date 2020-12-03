@@ -103,7 +103,8 @@
         "components/_pagination.scss",
         "components/_navigator.scss",
         "components/_productDetail.scss",
-        "components/_logIn.scss"
+        "components/_logIn.scss",
+        "components/_myPage.scss"
     ],
     "names": [],
     "file": "all.css"
