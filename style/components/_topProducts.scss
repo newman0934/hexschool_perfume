@@ -3,6 +3,9 @@
     background-color: transparent;
     .card-img-top {
       height: 540px;
+      @include mobile{
+        height: 350px;
+      }
     }
     .mask {
       top: 0;

@@ -2,13 +2,22 @@
   img{
     height: 555px;
     object-fit: cover;
+    @include mobile{
+      height: 350px;
+    }
   }
   > ul > li{
     .product-txt{
       padding:0 9%;
+      @include mobile{
+        padding:0;
+      }
     }
     &:last-child img{
       height: 1080px;
+      @include mobile{
+        height: 680px;
+      }
     }
     &:last-child a:hover{
       color: #000;

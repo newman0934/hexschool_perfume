@@ -2,6 +2,9 @@
   background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index1.jpg");
   background-size: cover;
   height: 54.375rem;
+  @include mobile{
+    height: 30rem;
+  }
   .banner-title {
     @include font-xxl;
   }
