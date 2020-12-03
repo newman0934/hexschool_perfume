@@ -11,28 +11,37 @@
 <body>
   <!-- header區 -->
   <header>
-    <div class="container">
-      <nav class="navbar navbar-expand-md navbar-light py-1">
+    <div class="container-md">
+      <nav class="navbar navbar-expand-md navbar-light py-1 px-0">
         <h1 class="logo mb-0">
           <a class="navbar-brand" href="/index.html">D'PERFUME</a>
         </h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-nav"
-          aria-controls="header-nav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="d-flex align-items-center">
+          <a href="#" class=" mobile-cart position-relative mr-4"><span class="material-icons d-block d-md-none text-gray-dark"> shopping_cart </span></a>
+          <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#header-nav"
+            aria-controls="header-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
         <div class="collapse navbar-collapse" id="header-nav">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="./products.html"><span class="material-icons"> store </span>Product</a>
+            <li class="nav-item order-1 order-md-1">
+              <a class="nav-link text-center" href="./products.html"><span class="material-icons d-none d-md-inline"> store </span>Product</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link pl-7" href="./logIn.html"><span class="material-icons"> person </span>log in</a>
+            <li class="nav-item order-5 order-md-2">
+              <a class="nav-link text-center pl-md-7" href="./logIn.html"><span class="material-icons d-none d-md-inline"> person </span>log in</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link pl-7" href="#"><span class="material-icons"> favorite </span>Wishlist</a>
+            <li class="nav-item order-2 order-md-3">
+              <a class="nav-link text-center pl-md-7" href="#"><span class="material-icons d-none d-md-inline"> favorite </span>Wishlist</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link pl-7" href="#"><span class="material-icons"> shopping_cart </span>Cart(3)</a>
+            <li class="nav-item d-none d-md-block order-md-4">
+              <a class="nav-link text-center pl-md-7" href="#"><span class="material-icons d-none d-md-inline"> shopping_cart </span>Cart(3)</a>
+            </li>
+            <li class="nav-item order-3 d-md-none">
+              <a class="nav-link text-center pl-md-7" href="#">Blog</a>
+            </li>
+            <li class="nav-item order-4 d-md-none">
+              <a class="nav-link text-center pl-md-7" href="#">Contact</a>
             </li>
           </ul>
         </div>
@@ -50,7 +59,7 @@
       <li><a href="#" class="text-white">ZARA</a></li>
     </ul>
   </nav>
-  <div class="product-detail mb-9 mb-md-11">
+  <div class="product-detail my-9 mb-md-11 mt-md-0">
 		<div class="container">
 			<div class="row flex-column-reverse flex-md-row">
 				<div class="col-md-8">

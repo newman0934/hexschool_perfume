@@ -12954,9 +12954,40 @@ header .logo a {
   white-space: nowrap;
 }
 
+header .mobile-cart:after {
+  content: "3";
+  display: none;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #916000;
+  color: #fff;
+  border-radius: 50%;
+  top: -25%;
+  right: -25%;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media all and (max-width: 767px) {
+  header .mobile-cart:after {
+    display: block;
+  }
+}
+
 header .nav-link {
   font-size: 1.25rem;
   line-height: 1.875rem;
+}
+
+@media all and (max-width: 767px) {
+  header .nav-link {
+    margin-left: -15px;
+    margin-right: -15px;
+    background: #8D8D8D;
+    color: white !important;
+    border: 1px solid #fff;
+  }
 }
 
 header .nav-link span {
