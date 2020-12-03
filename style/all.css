@@ -13198,6 +13198,12 @@ footer .footer-nav nav-link:hover {
   width: 47.94%;
 }
 
+@media all and (max-width: 767px) {
+  .product-detail .product-img li:nth-child(2), .product-detail .product-img li:nth-child(3) {
+    width: 100%;
+  }
+}
+
 .product-detail .product-name {
   font-size: 2rem;
   line-height: 3rem;

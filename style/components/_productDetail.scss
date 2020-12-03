@@ -2,6 +2,9 @@
     .product-img{
         li:nth-child(2), li:nth-child(3){
             width:47.94% ;
+            @include mobile{
+                width:100%;
+            }
         }
     }
     .product-name{
