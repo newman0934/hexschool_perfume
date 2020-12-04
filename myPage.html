@@ -19,51 +19,25 @@
             <a class="navbar-brand" href="/index.html">D'PERFUME</a>
           </h1>
           <div class="d-flex align-items-center">
-            <a href="#" class="mobile-cart position-relative mr-4"
-              ><span class="material-icons d-block d-md-none text-gray-dark">
-                shopping_cart
-              </span></a
-            >
-            <button
-              class="navbar-toggler border-0"
-              type="button"
-              data-toggle="collapse"
-              data-target="#header-nav"
-              aria-controls="header-nav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+            <a href="#" class=" mobile-cart position-relative mr-4"><span class="material-icons d-block d-md-none text-gray-dark"> shopping_cart </span></a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#header-nav"
+              aria-controls="header-nav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           </div>
           <div class="collapse navbar-collapse" id="header-nav">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
               <li class="nav-item order-1 order-md-1">
-                <a class="nav-link text-center" href="./products.html"
-                  ><span class="material-icons d-none d-md-inline"> store </span
-                  >Product</a
-                >
+                <a class="nav-link text-center" href="./products.html"><span class="material-icons d-none d-md-inline"> store </span>Product</a>
               </li>
               <li class="nav-item order-5 order-md-2">
-                <a class="nav-link text-center pl-md-7" href="./logIn.html"
-                  ><span class="material-icons d-none d-md-inline">
-                    person </span
-                  >log in</a
-                >
+                <a class="nav-link text-center pl-md-7" href="./logIn.html"><span class="material-icons d-none d-md-inline"> person </span>log in</a>
               </li>
               <li class="nav-item order-2 order-md-3">
-                <a class="nav-link text-center pl-md-7" href="#"
-                  ><span class="material-icons d-none d-md-inline">
-                    favorite </span
-                  >Wishlist</a
-                >
+                <a class="nav-link text-center pl-md-7" href="#"><span class="material-icons d-none d-md-inline"> favorite </span>Wishlist</a>
               </li>
               <li class="nav-item d-none d-md-block order-md-4">
-                <a class="nav-link text-center pl-md-7" href="#"
-                  ><span class="material-icons d-none d-md-inline">
-                    shopping_cart </span
-                  >Cart(3)</a
-                >
+                <a class="nav-link text-center pl-md-7" href="#"><span class="material-icons d-none d-md-inline"> shopping_cart </span>Cart(3)</a>
               </li>
               <li class="nav-item order-3 d-md-none">
                 <a class="nav-link text-center pl-md-7" href="#">Blog</a>
@@ -87,20 +61,20 @@
         <li><a href="#" class="text-white">ZARA</a></li>
       </ul>
     </nav>
-
-    <div class="my-page">
+    <!-- my page區 -->
+    <div class="my-page mt-9">
       <div class="container">
-        <div class="row">
-          <div class="col-md-2">
-            <h2 class="member-title">會員中心</h2>
-            <ul>
-              <li><a href="#">會員資料修改</a></li>
-              <li><a href="#">訂單查詢</a></li>
-              <li><a href="#">退/患或申請</a></li>
+        <div class="row flex-column flex-lg-row">
+          <div class="col-lg-2 order-1 order-lg-1 mb-4">
+            <h2 class="member-title text-gray-medium mb-md-6 d-none d-md-block">會員中心</h2>
+            <ul class="member-list d-flex flex-lg-column">
+              <li class="col-4 col-lg-12 mb-md-5 pl-0 text-center text-lg-left"><a href="#" class="text-gray-medium">會員資料修改</a></li>
+              <li class="col-4 col-lg-12 mb-md-5 pl-0 text-center text-lg-left"><a href="#" class="text-gray-medium">訂單查詢</a></li>
+              <li class="col-4 col-lg-12 mb-md-5 pl-0 text-center text-lg-left"><a href="#" class="text-gray-medium">退/換貨申請</a></li>
             </ul>
           </div>
-          <div class="col-md-7">
-            <h3>個人資料修改</h3>
+          <div class="col-lg-7 order-3 order-lg-2">
+            <h3 class="info-edit-title pb-2">個人資料修改</h3>
             <form>
               <div class="form-group row">
                 <label for="account" class="col-4 col-md-2 col-form-label">會員帳號</label>
@@ -137,9 +111,9 @@
               </div>
               <div class="form-group row">
                 <label for="member-contact-address" class="col-4 col-md-2 col-form-label">聯絡地址</label>
-                <div class="col-md-6">
+                <div class="col-8 col-md-6">
                   <div class="form-group no-gutters">
-                    <div class="col-8 col-md-6">
+                    <div class="col-md-6">
                       <select name="contactCountry" id="contact-country" class="form-control">
                         <option value="taiwan">台灣及離島</option>
                         <option value="taiwan">台灣及離島</option>
@@ -149,7 +123,7 @@
                     </div>
                   </div>
                   <div class="form-group row">
-                    <div class="col-8 col-md-6 pr-0">
+                    <div class="col-6 pr-0">
                       <select name="contactCity" id="contact-city" class="form-control">
                         <option value="kaohsiung">高雄市</option>
                         <option value="kaohsiung">高雄市</option>
@@ -157,7 +131,7 @@
                         <option value="kaohsiung">高雄市</option>
                       </select>
                     </div>
-                    <div class="col-8 col-md-6">
+                    <div class="col-6">
                       <select name="contactDist" id="contact-dist" class="form-control">
                         <option value="yenchen">鹽埕區</option>
                         <option value="yenchen">鹽埕區</option>
@@ -167,7 +141,7 @@
                     </div>
                   </div>
                   <div class="form-group no-gutters">
-                    <div class="col-8 col-md-12">
+                    <div>
                       <input type="text" class="form-control" id="member-contact-address" name="memberContactAddress" placeholder="請輸入地址">
                     </div>
                   </div>
@@ -185,9 +159,9 @@
               </div>
               <div class="form-group row">
                 <label for="member-shipping-address" class="col-4 col-md-2 col-form-label">配送地址</label>
-                <div class="col-md-6">
+                <div class="col-8 col-md-6">
                   <div class="form-group no-gutters">
-                    <div class="col-8 col-md-6">
+                    <div class="col-md-6">
                       <select name="shippingCountry" id="shipping-country" class="form-control">
                         <option value="taiwan">台灣及離島</option>
                         <option value="taiwan">台灣及離島</option>
@@ -197,7 +171,7 @@
                     </div>
                   </div>
                   <div class="form-group row">
-                    <div class="col-8 col-md-6 pr-0">
+                    <div class="col-6 pr-0">
                       <select name="shippingCity" id="shipping-city" class="form-control">
                         <option value="kaohsiung">高雄市</option>
                         <option value="kaohsiung">高雄市</option>
@@ -205,7 +179,7 @@
                         <option value="kaohsiung">高雄市</option>
                       </select>
                     </div>
-                    <div class="col-8 col-md-6">
+                    <div class="col-6">
                       <select name="shippingDist" id="shipping-dist" class="form-control">
                         <option value="yenchen">鹽埕區</option>
                         <option value="yenchen">鹽埕區</option>
@@ -215,7 +189,7 @@
                     </div>
                   </div>
                   <div class="form-group no-gutters">
-                    <div class="col-8 col-md-12">
+                    <div>
                       <input type="text" class="form-control" id="member-shipping-address" name="memberShippingAddress" placeholder="請輸入地址">
                     </div>
                   </div>
@@ -228,7 +202,7 @@
               </div>
             </form>
             <form>
-              <h3>修改密碼</h3>
+              <h3 class="change-password-title pb-2 mb-3">修改密碼</h3>
               <div class="form-group row">
                 <label for="old-password" class="col-4 col-md-2 col-form-label">舊密碼</label>
                 <div class="col-8 col-md-6">
@@ -248,16 +222,16 @@
                     <input type="text" class="form-control" id="check-password">
                   </div>
                   <div class="form-group">
-                    <button type="submit" class="btn btn-primary">確定修改</button>
+                    <button type="submit" class="btn btn-primary">變更密碼</button>
                   </div>
                 </div>
               </div>
             </form>
           </div>
-          <div class="col-md-3">
-            <h3>會員編碼 <span class="member-code">T00020080615</span></h3>
-            <ul>
-              <li>
+          <div class="col-lg-3 order-2 order-lg-3 mb-9">
+            <h3 class="member-code text-gray-dark mb-6"><span class="material-icons mr-2">person</span>會員編碼 <span class=" ml-2 code">T00020080615</span></h3>
+            <ul class="mb-0 text-gray-dark">
+              <li class="mb-3">
                 <div class="row">
                   <div class="col-4">
                     購物車
@@ -267,7 +241,7 @@
                   </div>
                 </div>
               </li>
-              <li> 
+              <li class="mb-3"> 
                 <div class="row">
                   <div class="col-4">
                     我的蒐藏
@@ -277,7 +251,7 @@
                   </div>
                 </div>
               </li>
-              <li>
+              <li class="mb-3">
                 <div class="row">
                   <div class="col-4 ">
                     完成訂單
@@ -298,11 +272,12 @@
                 </div>
               </li>
             </ul>
-            <p>新戶輸入邀請碼即可獲贈紅利點數1000點</p>
+            <p class="text-gray-dark new-coupon">新戶輸入邀請碼即可獲贈紅利點數1000點</p>
           </div>
         </div>
       </div>
     </div>
+    <!-- footer區 -->
     <footer class="bg-primary">
       <div class="container d-flex justify-content-between">
         <div class="footer-logo d-flex align-items-center">

@@ -1,0 +1,67 @@
+.my-page {
+  .member-title {
+    @include font-md;
+  }
+  .member-list {
+    a {
+      display: inline;
+      border-bottom: 2px solid #fff;
+      &:hover {
+        border-bottom: 2px solid $primary;
+      }
+    }
+  }
+  .member-code {
+    font-size: 1rem;
+    line-height: 24px;
+    .code {
+      @include font-md;
+    }
+    span:first-child {
+      width: 1rem;
+      height: 1rem;
+      vertical-align: sub;
+    }
+  }
+  .new-coupon {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .info-edit-title,
+  .change-password-title {
+    font-size: 1rem;
+    line-height: 22px;
+    font-weight: 1000;
+    border-bottom: 1px solid $gray-dark;
+  }
+
+//   input[type=checkbox] {
+//     display: inline-block;
+//     padding: 3px 6px;
+//     border: 1px solid gray;
+//     color: #444;
+//     user-select: none; /* 防止文字被滑鼠選取反白 */
+// }
+
+input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #000;
+    position: relative;
+    user-select: none;
+    &:checked{
+        background-color: $primary;
+        &:after{
+            position: absolute;
+            content: "\2713";
+            color: white;
+            font-size: 12px;
+            top: -4px;
+            left: 1px;
+        }
+    }
+  }
+
+}
